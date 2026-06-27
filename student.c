@@ -8,6 +8,17 @@ void addStudent()
     FILE *fp;
 
     Student s;
+    s.cProgramming = 0;
+    s.digitalLogic = 0;
+    s.mathematics = 0;
+    s.computerFundamentals = 0;
+    s.english = 0;
+
+    s.attendance = 0;
+
+    s.gpa = 0;
+
+strcpy(s.grade,"N/A");
 
     fp = fopen("students.dat", "ab");
 

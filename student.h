@@ -9,15 +9,15 @@ typedef struct
     char section[10];
 
     float cProgramming;
+    float digitalLogic;
     float mathematics;
+    float computerFundamentals;
     float english;
-    float statistics;
-    float physics;
 
     float attendance;
 
     float gpa;
-    char grade[5];
+    char grade[10];
 
 } Student;
 

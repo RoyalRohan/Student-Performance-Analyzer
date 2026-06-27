@@ -79,7 +79,7 @@ int login()
         printf("\n");
 
         if(strcmp(username, correctUser) == 0 &&
-           strcmp(password, correctPass) == 0)
+        strcmp(password, correctPass) == 0)
         {
             printf("\nLogin Successful!\n");
             return 1;
